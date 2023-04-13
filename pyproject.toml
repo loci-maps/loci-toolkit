@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "matplotlib", "nltk", "numpy", "openai", "scikit_learn", "tenacity"]
+build-backend = "hatchling.build"
+
+[project]
+name = "loci-labs-map"
+version = "0.0.1"
+authors = [
+  { name="Kenny Lau", email="kennylau92@gmail.com" },
+]
+description = "A package that turns a collection of information into a nested weighted voronoi diagram"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/loci-labs/map"
+"Bug Tracker" = "https://github.com/loci-labs/map/issues"
