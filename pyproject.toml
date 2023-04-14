@@ -3,12 +3,12 @@ requires = ["hatchling", "matplotlib", "nltk", "numpy", "openai", "scikit_learn"
 build-backend = "hatchling.build"
 
 [project]
-name = "loci-labs-map"
+name = "loci-toolkit"
 version = "0.0.1"
 authors = [
   { name="Kenny Lau", email="kennylau92@gmail.com" },
 ]
-description = "A package that turns a collection of information into a nested weighted voronoi diagram"
+description = "A toolkit to turn organized information into a semantic visual space"
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/loci-labs/map"
+"Homepage" = "https://github.com/loci-labs/loci-toolkit/blob/main/README.md"
 "Bug Tracker" = "https://github.com/loci-labs/map/issues"
